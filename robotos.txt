@@ -1,0 +1,24 @@
+# robots.txt for https://rna.co.ir
+
+User-agent: *
+Disallow: /assets/
+Disallow: /tmp/
+Disallow: /includes/
+Disallow: /cgi-bin/
+Allow: /assets/img/
+Allow: /assets/style/
+Allow: /assets/js/
+Allow: /
+
+# Sitemaps
+Sitemap: https://rna.co.ir/sitemap.xml
+
+# Extra SEO Guidelines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Crawl-delay: 10
